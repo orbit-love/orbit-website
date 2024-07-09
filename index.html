@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
   <style>
 *{
--webkit-font-smoothing: antialiased; 
+-webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
 .overlay{mix-blend-mode: screen;}
@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="top-bar hidden">
       <div class="top-bar-wrap">
         <div class="collab-image"><img src="images/Collab.png" loading="lazy" alt="" class="collab_image"></div>
-        <div class="text-small text-white">Orbit has been acquired by Postman. <a href="https://orbit.love/blog/orbit-is-joining-postman" target="_blank" class="link-10"><span class="top-bar-new-look text-white">Read more here</span></a>
+        <div class="text-small text-white">Orbit has been acquired by Postman. <a href="/orbit-is-joining-postman" target="_blank" class="link-10"><span class="top-bar-new-look text-white">Read more here</span></a>
         </div>
       </div>
     </div>
@@ -654,7 +654,7 @@ if (screen && screen.width > 1027){
         var $next = $('.tabs-menu').children('.w--current:first').next();
         if($next.length) {
          if ($(".menu-button").hasClass("w--open")) {  // if the mobile burger button is open, stop the tabs autoplay
-            tabLoop(); 
+            tabLoop();
             }else{
             $next.removeAttr("href").click();
             }
