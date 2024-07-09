@@ -1,0 +1,21 @@
+<svg width="1440" height="1021" viewBox="0 0 1440 1021" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g style="mix-blend-mode:overlay" filter="url(#filter0_f)">
+<path style="mix-blend-mode:overlay" d="M1265 -317C1566 -317 1810 -72.9952 1810 228C1810 528.995 1566 773 1265 773C964.005 773 720 528.995 720 228C720 -72.9952 964.005 -317 1265 -317Z" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="520" y="-517" width="1490" height="1490" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="paint0_linear" x1="1265" y1="773" x2="1265" y2="-762.3" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF00C7" stop-opacity="0"/>
+<stop offset="1" stop-color="#3B29FF"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="1440" height="1021" fill="white" transform="matrix(1 0 0 -1 0 1021)"/>
+</clipPath>
+</defs>
+</svg>
