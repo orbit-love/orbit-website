@@ -435,26 +435,7 @@ $( ".c-nav_background" ).click(function() {
   $( ".nav-lottie" ).click();
 });
 </script>
-  <script>
-  window.CommunitySearch = window.CommunitySearch || {};
-  window.CommunitySearch = Object.assign({}, window.CommunitySearch, {
-    baseUrl: "https://search.orbit.love/widget/1772063c-fd5c-46f3-8496-b790ebffaf7e"
-  });
-  if (window.CommunitySearch.init) {
-    window.CommunitySearch.init();
-  }
-  window.addEventListener(
-    "message",
-    (event) => {
-      if (event.data.type === "open-support-chat") {
-        window.Beacon('toggle');
-        window.Orbit.Analytics.trackEvent("community_search:contact_support_clicked");
-      }
-    },
-    false,
-  );
-</script>
-  <script defer="" src="https://search.orbit.love/widget.js" type="text/javascript"></script>
+
   <style>
 .integrations-card .w-dyn-items .w-dyn-item, .margin-top-40 .w-dyn-items .w-dyn-item, .community-list .div-block-18 a {
 	display: list-item;
@@ -612,16 +593,5 @@ $( ".c-nav_background" ).click(function() {
     margin-bottom: 1em;
 }
 </style>
-  <script type="text/javascript">
-window.Widget = window.Widget || {};
-window.Widget = Object.assign({}, window.Widget, {
-  baseUrl: "https://widget.orbit.love/widget/cln359u7h0000mp9y4n1l06f8"
-});
-// if Parm is already loaded, init now
-if (window.Widget.init) {
-  window.Widget.init(window.Widget.baseUrl);
-}
-</script>
-  <script type="text/javascript" defer="" src="https://widget.orbit.love/widget.js"></script>
 </body>
 </html>

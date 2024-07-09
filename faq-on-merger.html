@@ -552,25 +552,6 @@ $( ".c-nav_background" ).click(function() {
   $( ".nav-lottie" ).click();
 });
 </script>
-  <script>
-  window.CommunitySearch = window.CommunitySearch || {};
-  window.CommunitySearch = Object.assign({}, window.CommunitySearch, {
-    baseUrl: "https://search.orbit.love/widget/1772063c-fd5c-46f3-8496-b790ebffaf7e"
-  });
-  if (window.CommunitySearch.init) {
-    window.CommunitySearch.init();
-  }
-  window.addEventListener(
-    "message",
-    (event) => {
-      if (event.data.type === "open-support-chat") {
-        window.Beacon('toggle');
-        window.Orbit.Analytics.trackEvent("community_search:contact_support_clicked");
-      }
-    },
-    false,
-  );
-</script>
-  <script defer="" src="https://search.orbit.love/widget.js" type="text/javascript"></script>
+
 </body>
 </html>
