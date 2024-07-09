@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
   <style>
 *{
--webkit-font-smoothing: antialiased; 
+-webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
 .overlay{mix-blend-mode: screen;}
@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <style>
 .blog-rich-text > pre {
   padding: 0;
-}  
+}
 .blog-rich-text > pre > code > p {
   margin-bottom: 0;
   margin-right: 0;
@@ -247,7 +247,7 @@ code.inline {
     font-family: Gilroy,sans-serif;
     color: #f6f9fd;
     font-weight: 700;
-    text-decoration: none;    
+    text-decoration: none;
     border: 0;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -592,7 +592,7 @@ code.inline {
             <div class="footer-wrap margin-top-24 cms-fix">
               <a href="https://orbit.love/docs" class="footer-link black">Knowledge Base</a>
               <a href="developers.html" class="footer-link black">Developers</a>
-              <a href="learn.html" class="footer-link black">Learn</a>
+
               <a href="partners.html" class="footer-link black">Partner Program</a>
             </div>
           </div>
@@ -725,7 +725,7 @@ $(document).ready(function(event) {
   /* Run Highlight JS on every code block */
   $('pre').each(function(index, codeBlock) {
     /* remove a last whitespace element in the block */
-    codeBlock.removeChild(codeBlock.lastChild);    
+    codeBlock.removeChild(codeBlock.lastChild);
     /* remove any pr or b tags added by webflow editor */
     codeBlock.querySelector("code").innerHTML = codeBlock.innerText;
     /* call hljs to highlight the content */
