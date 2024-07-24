@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# If the requested URL doesn't contain a file extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Try to serve the corresponding .html file
+RewriteRule ^(.+)$ $1.html [L,QSA]
